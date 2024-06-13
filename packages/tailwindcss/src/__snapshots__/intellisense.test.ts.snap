@@ -1240,6 +1240,7 @@ exports[`getClassList 1`] = `
   "outline-dashed",
   "outline-dotted",
   "outline-double",
+  "outline-inset",
   "outline-inherit",
   "outline-none",
   "outline-offset-0",

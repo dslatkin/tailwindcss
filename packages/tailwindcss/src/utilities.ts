@@ -3901,6 +3901,10 @@ export function createUtilities(theme: Theme) {
       ['--tw-outline-style', 'double'],
       ['outline-style', 'double'],
     ])
+    staticUtility('outline-inset', [
+      ['--tw-outline-style', 'inset'],
+      ['outline-style', 'inset'],
+    ])
 
     utilities.functional('outline', (candidate) => {
       if (candidate.negative) return

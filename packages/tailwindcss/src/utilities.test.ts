@@ -11445,6 +11445,7 @@ test('outline', () => {
         'outline-dashed',
         'outline-dotted',
         'outline-double',
+        'outline-inset',
 
         // outline-color
         'outline-red-500',
@@ -11595,6 +11596,11 @@ test('outline', () => {
       outline-style: double;
     }
 
+    .outline-inset {
+      --tw-outline-style: inset;
+      outline-style: inset;
+    }
+
     .outline-solid {
       --tw-outline-style: solid;
       outline-style: solid;
@@ -11623,6 +11629,7 @@ test('outline', () => {
       '-outline-dashed',
       '-outline-dotted',
       '-outline-double',
+      '-outline-inset',
 
       // outline-color
       '-outline-red-500',
